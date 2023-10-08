@@ -11,3 +11,5 @@ git clone https://github.com/Arksine/moonraker.git moonraker
 
 wget -q -O mainsail.zip https://github.com/mainsail-crew/mainsail/releases/latest/download/mainsail.zip && unzip mainsail.zip && rm mainsail.zip
 
+wget -q -O nginx.conf && mv nginx/nginx/nginx.conf nginx/nginx/nginx.conf.bak && cp nginx.conf nginx/nginx/nginx.conf
+
